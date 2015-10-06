@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Test bundle</title>
+
+    {% block stylesheets %}
+        <link href="{{ asset('bundles/home/css/main.css') }}" rel="stylesheet" />
+    {% endblock %}
+
 </head>
 <body>
 
